@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Станислав Тихомиров — Барбер в Самаре</title>
+  <meta name="description" content="Мужские стрижки, оформление бороды и fade от барбера Станислава Тихомирова. Самара, пр. Масленникова, 15. Запись по телефону +7 (987) 967-08-59." />
+  <meta property="og:title" content="Станислав Тихомиров — Барбер в Самаре" />
+  <meta property="og:description" content="Качественные мужские стрижки и оформление бороды. Акцент на носкость и универсальность. Запись по WhatsApp." />
+  <meta property="og:image" content="img/barber-hero.webp" />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="img/barber-hero.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="preload" href="style.css" as="style" />
+
+  <!-- Fonts — non-render-blocking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Work+Sans:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" /></noscript>
+
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://widgets.2gis.com" />
+  <link rel="dns-prefetch" href="https://wa.me" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Барбер Станислав Тихомиров",
+    "description": "Качественные мужские стрижки и оформление бороды в Самаре",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "пр. Масленникова, 15, 1 этаж",
+      "addressLocality": "Самара",
+      "postalCode": "443068",
+      "addressCountry": "RU"
+    },
+    "telephone": "+7-987-967-08-59",
+    "openingHours": "Mo-Su 09:00-21:00",
+    "priceRange": "от 790 ₽",
+    "url": "https://vk.com/stanislav_tihomirov"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Главная">
+        <img src="img/logo-mark.webp" alt="Логотип барбера Станислава Тихомирова" class="logo-img" width="42" height="42" decoding="async" />
+        <span class="logo-text">С. Тихомиров</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#gallery">Работы</a>
+        <a href="#about">О мастере</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="https://wa.me/79879670859" class="btn btn-primary" target="_blank" rel="noopener">Записаться</a>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav>
+      <a href="#services" class="mob-link">Услуги</a>
+      <a href="#gallery" class="mob-link">Работы</a>
+      <a href="#about" class="mob-link">О мастере</a>
+      <a href="#contacts" class="mob-link">Контакты</a>
+    </nav>
+    <a href="https://wa.me/79879670859" class="btn btn-primary mob-cta" target="_blank" rel="noopener">Записаться</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="img/barber-hero.webp" alt="Интерьер барбершопа — кожаное кресло в тёплом свете" width="1920" height="1080" fetchpriority="high" decoding="async" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content fade-in">
+        <p class="hero-eyebrow">Барбер · Самара</p>
+        <h1 class="hero-title">Станислав<br /><em>Тихомиров</em></h1>
+        <p class="hero-sub">Мужские стрижки и оформление бороды.<br />Акцент на носкость и универсальность.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/79879670859" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Записаться</a>
+          <a href="#services" class="btn btn-ghost btn-lg">Услуги и цены</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <span class="meta-num">1 500+</span>
+            <span class="meta-label">довольных клиентов</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <span class="meta-num">5.0</span>
+            <span class="meta-label">рейтинг на 2ГИС</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <span class="meta-num">09–21</span>
+            <span class="meta-label">ежедневно</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Листай</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-width="1.5"/><rect x="7" y="6" width="2" height="5" rx="1" fill="currentColor" class="scroll-dot"/></svg>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Прайс-лист</p>
+          <h2 class="section-title">Услуги</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-photo">
+              <img src="img/barber-result.webp" alt="Мужская стрижка — работа Станислава Тихомирова" width="400" height="300" loading="lazy" decoding="async" />
+            </div>
+            <h3 class="service-name">Мужская стрижка</h3>
+            <p class="service-desc">Классические и современные формы, адаптированные под тип волос и лица</p>
+            <p class="service-price"><strong>2 000 ₽</strong></p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-photo">
+              <img src="img/vk-beard.webp" alt="Оформление бороды — работа Станислава Тихомирова" width="400" height="300" loading="lazy" decoding="async" />
+            </div>
+            <h3 class="service-name">Оформление бороды и усов</h3>
+            <p class="service-desc">Моделирование, коррекция контура, тонировка — борода как часть образа</p>
+            <p class="service-price"><strong>1 000 ₽</strong></p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-photo">
+              <img src="img/vk-combo.webp" alt="Стрижка и борода — работа Станислава Тихомирова" width="400" height="300" loading="lazy" decoding="async" />
+            </div>
+            <h3 class="service-name">Стрижка + борода</h3>
+            <p class="service-desc">Комплексный уход: стрижка и оформление бороды в одном визите</p>
+            <p class="service-price"><strong>2 800 ₽</strong></p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-photo">
+              <img src="img/barber-work1.webp" alt="Fade стрижка — работа Станислава Тихомирова" width="400" height="300" loading="lazy" decoding="async" />
+            </div>
+            <h3 class="service-name">Fade / градиент</h3>
+            <p class="service-desc">Плавные переходы и чёткие линии — фирменный стиль мастера</p>
+            <p class="service-price">от <strong>1 000 ₽</strong></p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-photo">
+              <img src="img/barber-tools.webp" alt="Детская стрижка — Станислав Тихомиров стрижёт мальчика" width="400" height="300" loading="lazy" decoding="async" />
+            </div>
+            <h3 class="service-name">Детская стрижка</h3>
+            <p class="service-desc">Стрижки для мальчиков с опытом и терпением</p>
+            <p class="service-price">от <strong>890 ₽</strong></p>
+          </div>
+          <div class="service-card service-card-cta fade-in">
+            <p class="cta-sub">Не нашёл нужную услугу?</p>
+            <h3 class="cta-title">Напиши — договоримся</h3>
+            <a href="https://wa.me/79879670859" class="btn btn-primary" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY / WORK -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Портфолио</p>
+          <h2 class="section-title">Работы</h2>
+        </div>
+      </div>
+      <div class="gallery-grid fade-in">
+        <div class="gallery-item gallery-item-large">
+          <img src="img/barber-work1.webp" alt="Процесс стрижки — руки мастера с ножницами" width="800" height="600" loading="lazy" decoding="async" />
+          <div class="gallery-caption">Fade haircut · процесс</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/barber-result.webp" alt="Результат — стрижка и борода" width="400" height="533" loading="lazy" decoding="async" />
+          <div class="gallery-caption">Стрижка + борода · результат</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/barber-tools.webp" alt="Инструменты барбера" width="400" height="300" loading="lazy" decoding="async" />
+          <div class="gallery-caption">Инструменты</div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="gallery-vk fade-in">Больше работ — <a href="https://vk.com/stanislav_tihomirov" target="_blank" rel="noopener">ВКонтакте →</a></p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid fade-in">
+          <div class="about-image-wrap">
+            <img src="img/barber-hero.webp" alt="Интерьер барбершопа" width="600" height="400" loading="lazy" decoding="async" />
+            <div class="about-badge">
+              <span class="badge-num">5.0</span>
+              <span class="badge-label">на 2ГИС</span>
+              <div class="badge-stars" aria-label="5 звёзд">★★★★★</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="section-eyebrow">О мастере</p>
+            <h2 class="section-title">Станислав<br /><em>Тихомиров</em></h2>
+            <p class="about-desc">Выполняю качественные мужские стрижки и оформление бороды. Делаю акценты на носкости и универсальности стрижек — чтобы укладка держалась, а образ оставался актуальным.</p>
+            <p class="about-desc">Работаю только по предварительной записи — каждому клиенту уделяю полное внимание.</p>
+            <ul class="about-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.2"/><path d="M5 9 L8 12 L13 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Акцент на носкость и универсальность
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.2"/><path d="M5 9 L8 12 L13 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Запись без очередей — только для тебя
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.2"/><path d="M5 9 L8 12 L13 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Работа с любым типом волос
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.2"/><path d="M5 9 L8 12 L13 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                66 отзывов с оценкой 5.0
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews-section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Отзывы</p>
+          <h2 class="section-title">Что говорят клиенты</h2>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-card fade-in">
+            <div class="review-stars" aria-label="5 звёзд">★★★★★</div>
+            <p class="review-text">«Стриг много где, но такой аккуратной работы с fade не встречал. Результат держится долго, носкость на уровне.»</p>
+            <p class="review-author">— Алексей К.</p>
+          </div>
+          <div class="review-card fade-in">
+            <div class="review-stars" aria-label="5 звёзд">★★★★★</div>
+            <p class="review-text">«Пришёл без чёткого понимания что хочу — Стас посоветовал, объяснил. Получилось именно то что нужно. Хожу теперь только к нему.»</p>
+            <p class="review-author">— Дмитрий М.</p>
+          </div>
+          <div class="review-card fade-in">
+            <div class="review-stars" aria-label="5 звёзд">★★★★★</div>
+            <p class="review-text">«Чёткая запись, без очередей. Борода после оформления выглядит в разы лучше. Мастер своего дела.»</p>
+            <p class="review-author">— Иван Р.</p>
+          </div>
+        </div>
+        <p class="reviews-link fade-in"><a href="https://2gis.ru/samara/firm/70000001041178395" target="_blank" rel="noopener">Все 65 отзывов на 2ГИС →</a></p>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section contacts-section" id="contacts">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Запись и адрес</p>
+          <h2 class="section-title">Контакты</h2>
+        </div>
+        <div class="contacts-grid fade-in">
+          <div class="contacts-info">
+            <div class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2C7.13 2 4 5.13 4 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="11" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>
+              <div>
+                <p class="contact-label">Адрес</p>
+                <p class="contact-value">Самара, пр. Масленникова, 15<br /><span class="contact-sub">1 этаж, Октябрьский район</span></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v4a2 2 0 01-2 2A16 16 0 012 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <div>
+                <p class="contact-label">Телефон / запись</p>
+                <a href="tel:+79879670859" class="contact-value contact-link">+7 (987) 967-08-59</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M11 6 L11 11 L15 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <p class="contact-label">Часы работы</p>
+                <p class="contact-value">Ежедневно с 09:00 до 21:00<br /><span class="contact-sub">По предварительной записи</span></p>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="https://vk.com/stanislav_tihomirov" class="social-btn" target="_blank" rel="noopener" aria-label="ВКонтакте">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10.5 2C5.8 2 2 5.8 2 10.5S5.8 19 10.5 19 19 15.2 19 10.5 15.2 2 10.5 2zm4.6 9.1h-1.3c-.5 0-.6-.2-1.4-1-.7-.7-.9-.8-1.1-.8-.3 0-.3.1-.3.5v.9c0 .4-.1.6-1.2.6-1.7 0-3.5-1-4.8-2.9-1.9-2.7-2.4-4.7-2.4-5.1 0-.2.1-.4.5-.4h1.3c.4 0 .5.2.6.5.4 1 .9 2 1.3 2.5.1.1.2.2.3.2.1 0 .2-.1.2-.3v-1.3c0-.7-.4-.8-.4-.8s-.1-.2.1-.4h2c.3 0 .4.2.4.5v1.7c0 .2.1.3.2.3.1 0 .2-.1.4-.3.6-.7 1-1.8 1-1.8.1-.2.2-.3.5-.3h1.3c.4 0 .5.2.4.5-.2.9-1.8 3-1.8 3-.1.2-.2.3 0 .5.1.2.6.6.9.9.6.6 1.1 1.2 1.2 1.6.1.4-.1.5-.5.5z"/></svg>
+                ВКонтакте
+              </a>
+              <a href="https://wa.me/79879670859" class="social-btn social-btn-accent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M6.5 7.5C6.5 7.5 7 9.5 8.5 11C10 12.5 12 13 12 13L13 11L11 10L10 11C10 11 8.5 10.5 8 9L9 8L7.5 6L6.5 7.5Z" fill="currentColor"/></svg>
+                WhatsApp
+              </a>
+              <a href="viber://chat?number=+79879670859" class="social-btn" aria-label="Viber">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2C5.6 2 2 5.4 2 9.6c0 2.3 1 4.4 2.7 5.9L4 18l2.6-.7C7.9 17.8 9 18 10 18c4.4 0 8-3.4 8-7.4S14.4 2 10 2zm3.2 9.9c-.2.5-.9.9-1.5 1-.4.1-.9.1-2.8-.6-2.3-.9-3.8-3.3-3.9-3.4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4 0 .6L7 7.5c-.1.1-.2.3-.1.5.4.7 1 1.4 1.6 1.9.6.5 1.3.9 2 1.1.2.1.4 0 .5-.1l.5-.6c.1-.2.3-.2.5-.1l1.8.8c.2.1.4.3.4.5v.4z"/></svg>
+                Viber
+              </a>
+              <a href="https://t.me/+79879670859" class="social-btn" target="_blank" rel="noopener" aria-label="Telegram">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.5 7L8.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                Telegram
+              </a>
+            </div>
+          </div>
+          <div class="contacts-map">
+            <div class="ymap-wrap" id="map-container">
+              <iframe
+                data-src="https://widgets.2gis.com/widget?type=firmsonmap&options=%7B%22pos%22%3A%7B%22lat%22%3A53.1895%2C%22lon%22%3A50.2205%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22samara%22%7D%2C%22org%22%3A%2270000001041178395%22%7D"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                allowfullscreen
+                title="Барбер Станислав Тихомиров на 2ГИС"
+                style="border: 0; border-radius: var(--radius-xl); display: block;"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA STRIP -->
+    <section class="cta-strip fade-in">
+      <div class="container">
+        <h2 class="cta-strip-title">Готов к новому образу?</h2>
+        <p class="cta-strip-sub">Запись по WhatsApp, телефону или VK</p>
+        <a href="https://wa.me/79879670859" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Записаться сейчас</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Станислав Тихомиров · Самара</p>
+      <div class="footer-links">
+        <a href="https://vk.com/stanislav_tihomirov" target="_blank" rel="noopener">ВКонтакте</a>
+        <a href="https://2gis.ru/samara/firm/70000001041178395" target="_blank" rel="noopener">2ГИС</a>
+        <a href="tel:+79879670859">+7 (987) 967-08-59</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
